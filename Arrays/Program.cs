@@ -4,11 +4,18 @@
     {
         static void Main(string[] args)
         {
-            int[] numers = new int[4];
+            int[] nums2 = new int[10]; // Создали массив на 10 элементов
 
-            int[] nums2 = new int[4] { 1, 2, 3, 4 };
+            nums2[3] = 10; // на 3 индекс поместили значение 10
 
-            Console.WriteLine(nums2[3]);
+            Console.WriteLine(nums2[3]); // Вывод значение
+
+            nums2[2] = 6;
+            nums2[1] = 7;
+            Console.WriteLine(nums2[2] + nums2[1]); // Ну тут все понятно
+
+            int a = nums2[3];
+            Console.WriteLine(a + 100);
         }
     }
 }
