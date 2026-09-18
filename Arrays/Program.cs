@@ -16,6 +16,30 @@
 
             int a = nums2[3];
             Console.WriteLine(a + 100);
+
+            Console.WriteLine("\t");
+
+
+            //Практика
+            int[] nums3 = new int[5] { 10, 20, 30, 40, 50 }; 
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(nums3[i]);
+            }
+
+            Console.WriteLine("\t");
+
+            int[] numbers = { 10, 20, 30, 40, 50 };
+            int sum = 0;
+
+            for (int i = 0; i < 5; i++)
+            {
+                sum = sum + numbers[i];
+                Console.WriteLine(numbers[i]);
+            }
+            Console.WriteLine("Сумма чисел равен:" + sum);
+
         }
     }
 }
