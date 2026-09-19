@@ -40,6 +40,11 @@
             }
             Console.WriteLine("Сумма чисел равен:" + sum);
 
+
+            //19.09.2026
+            int[] myAroy = Enumerable.Repeat(5, 10).ToArray();
+
+            Console.ReadLine();
         }
     }
 }
