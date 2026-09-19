@@ -43,8 +43,9 @@
 
             //19.09.2026
             int[] myAroy = Enumerable.Repeat(5, 10).ToArray();
-
+            int[] myAroy2 = Enumerable.Range(4, 5).ToArray();
             Console.ReadLine();
+
         }
     }
 }
