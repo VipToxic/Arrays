@@ -46,6 +46,16 @@
             int[] myAroy2 = Enumerable.Range(4, 5).ToArray();
             Console.ReadLine();
 
+
+
+            int[] myArr = { 1, 2, 3, 5 };
+
+            Console.WriteLine();
+
+            for (int i = myArr.Length - 1; i >= 0; i--)
+            {
+                Console.WriteLine(myArr[i]);
+            }
         }
     }
 }
