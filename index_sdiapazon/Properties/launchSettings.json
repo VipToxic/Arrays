@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "index_sdiapazon": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "index_diopazon": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
