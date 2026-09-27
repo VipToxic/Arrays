@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Two-dimensiona-array": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
