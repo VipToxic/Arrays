@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // врема 23:28 начал обучение к двумерныем массивам
         }
     }
 }
