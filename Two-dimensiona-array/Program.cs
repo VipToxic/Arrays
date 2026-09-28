@@ -4,9 +4,25 @@
     {
         static void Main(string[] args)
         {
-            // врема 23:28 начал обучение к двумерныем массивам
+            // Одномерный массив
+            int[] nums1 = new int[] { 1, 2, 3, 4, 5};
 
-            Console.WriteLine("Я лох");
+            // Двумерный массив
+            int[,] nums2 = {
+                { 1, 2, 3 },
+                { 3, 4, 5 },
+                { 3, 1, 5 }
+            };
+
+            for (int i = 0; i < nums2.GetLength(0); i++)
+            {
+                for (int j = 0; j < nums2.GetLength(1); j++)
+                {
+                    Console.Write(nums2[i, j]);
+                }
+            }
+
+            
         }
     }
 }
