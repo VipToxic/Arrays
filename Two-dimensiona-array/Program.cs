@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             // врема 23:28 начал обучение к двумерныем массивам
+
+            Console.WriteLine("Я лох");
         }
     }
 }
