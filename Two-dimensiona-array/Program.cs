@@ -139,7 +139,10 @@
             }
 
             Console.WriteLine("Самое маленькое число: " + smallNumbers);
-        }
 
+
+
+            
+        }
     }
 }
