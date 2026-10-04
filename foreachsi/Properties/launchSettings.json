@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "foreachsi": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
