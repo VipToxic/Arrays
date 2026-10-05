@@ -3,6 +3,7 @@
   <Project Path="Arrays/Arrays.csproj" />
   <Project Path="foreachsi/foreachsi.csproj" Id="217fd4c1-8f30-4fcb-a285-11eff9fb4031" />
   <Project Path="index_diopazon/index_diopazon.csproj" Id="e43c434f-1170-4994-ac75-ba94c4ab1d90" />
+  <Project Path="texmerniyemassiv/texmerniyemassiv.csproj" Id="32d63d1d-5714-4443-a5d9-7527bfac319c" />
   <Project Path="Two-dimensiona-array/Two-dimensiona-array.csproj" Id="46f4e27f-e11e-4bc1-843f-d2a5ca3d0e72" />
   <Project Path="zubMassiv/zubMassiv.csproj" Id="12d36eeb-6324-4eb9-b13a-f4adff543674" />
   <Project Path="заполнение/заполнение.csproj" Id="fdc31395-b33a-4c56-a909-80502b0c4a14" />

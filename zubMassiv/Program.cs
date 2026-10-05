@@ -26,16 +26,16 @@
                 Console.WriteLine();
             }
 
-            int dlina = myArray[0].Length;
-            int dlina2 = 0;
+            int dlina = myArray[0].Length; // Храним первый элемент массива
+            int dlina2 = 0; // для того чтобы хранит индекс элемента
 
-            for (int i = 1; i < myArray.Length; i++)
+            for (int i = 1; i < myArray.Length; i++) // i = 1 потому что предыдуший элемент уже храниться в переменной dlina
             {
                 
-                if (myArray[i].Length > dlina)
+                if (myArray[i].Length > dlina) // Проверяем текуший элемент с предидушим на большее или меньше
                 {
-                    dlina = myArray[i].Length;
-                    dlina2 = i;
+                    dlina = myArray[i].Length; // Если true то меняем местами
+                    dlina2 = i; // и меняем инддекс
                 }
                 
             }
