@@ -4,7 +4,25 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+
+            int[,,] trex = new int[3, 10, 5]; 
+
+            for (int i = 0; i < trex.GetLength(0); i++)
+            {
+                for (int j = 0; j < trex.GetLength(1); j++)
+                {
+                    for ( int k = 0; k < trex.GetLength(2); k++)
+                    {
+                        trex[i, j, k] = i + j + k;
+                        Console.Write(trex[i, j, k]);
+                    }
+                    Console.WriteLine();
+                }
+                Console.WriteLine();
+            }
+
+        
         }
     }
 }
